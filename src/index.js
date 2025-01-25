@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://neon-pie-fbc40c.netlify.app/",
+    origin: "https://neon-pie-fbc40c.netlify.app",
     credentials: true,
   })
 );
