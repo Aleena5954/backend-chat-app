@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://chatapplicationrealtime.netlify.app/"],
+    origin: ["https://neon-pie-fbc40c.netlify.app"],
   },
 });
 
